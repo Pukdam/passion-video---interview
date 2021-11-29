@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: ;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: inline-block;
+  color: ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "";
+}
+
+li a:hover {
+  background-color: ;
+  color: ;
+  scale: 1.2;
+}
