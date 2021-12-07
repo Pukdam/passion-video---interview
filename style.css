@@ -37,22 +37,54 @@ li a:hover {
   font-family: "Monoton", cursive;
   font-size: 5em;
   text-align: center;
+  color: #b4b88f;
+}
+
+h2 {
+  font-family: "Stint Ultra Condensed", cursive;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 7%;
 }
 
 p {
   font-family: "Slabo 27px", serif;
+  text-align: center;
+  font-size: 1.5em;
 }
 
-img {
+#images img {
   width: 100%;
+  height: auto;
   max-width: 1200px;
 }
 
 #images {
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  height: auto;
   display: grid;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+#images .Portræt {
+  max-width: 100%;
+  max-height: auto;
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+
+#images .Højformat {
+  max-width: 100%;
+  max-height: auto;
+  grid-column: 1/2;
+  grid-row: 2/2;
+}
+
+#images .Bredformat {
+  max-width: 100%;
+  max-height: auto;
+  grid-column: 1/4;
+  grid-row: 3/3;
 }
 
 #first_section {
@@ -74,4 +106,18 @@ iframe {
   display: block;
   margin: auto;
   margin-block: 50px;
+}
+
+video {
+  width: 80%;
+  height: auto;
+  aspect-ratio: 16/9;
+  display: block;
+  margin: auto;
+  margin-block: 50px;
+}
+
+footer {
+  font-family: "Stint Ultra Condensed", cursive;
+  font-size: 2em;
 }
